@@ -33,7 +33,7 @@ a_col = a.view(-1,1)  #-1 if unsure of tensor size
 torch_tensor = torch.from_numpy(np.array([0.0,1.0,2.0,3.0,4.0]))
 convert_back = torch_tensor.numpy()
 
-#can usewith pandas
+#can use with pandas
 pandas_series = pd.Series([0.1,2,0.3,10.1])
 pandas_to_torch = torch.from_numpy(pandas_series.values)
 
