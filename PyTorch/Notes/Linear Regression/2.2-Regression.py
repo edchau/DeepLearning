@@ -19,6 +19,7 @@ the convention in machine learning is each row represents a sample and each
 column represents a feature. As a result, if you have one feature you need to 
 specify the extra dimension. 
 """
+f = -3*X
 plt.plot(X.numpy(),f.numpy())
 plt.show
 
@@ -43,6 +44,3 @@ for epoch in range(3):
     w.grad.data.zero_()
     LOSS.append(loss)
     
-"""
-Training with Slope and Bias
-"""
