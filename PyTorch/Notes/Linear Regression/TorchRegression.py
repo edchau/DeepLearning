@@ -8,6 +8,7 @@ Created on Thu Dec 20 18:33:25 2018
 
 import torch
 from torch.utils.data import Dataset,DataLoader
+from torch import optim
 
 class Data(Dataset):
     def __init__(self):
